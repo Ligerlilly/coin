@@ -15,5 +15,10 @@ def coin(amount)
     coins[:d] += 1
   end
 
+  until amount < 5
+    amount -= 5
+    coins[:n] += 1
+  end
+
   coins
 end
