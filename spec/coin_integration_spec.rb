@@ -10,6 +10,6 @@ describe 'coin path', {type: :feature} do
     visit '/'
     fill_in 'change', with: 159
     click_button 'Change!'
-    expect(page).to have_content 'Q: 6 D: 0 N: 1 P: 4'
+    expect(page).to have_content 'Quarters: 6 Dimes: 0 Nickles: 1 Pennies: 4'
   end
 end
