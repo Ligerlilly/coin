@@ -20,5 +20,11 @@ def coin(amount)
     coins[:n] += 1
   end
 
+  until amount == 0
+    amount -= 1
+    coins[:p] += 1
+  end
+
+
   coins
 end
